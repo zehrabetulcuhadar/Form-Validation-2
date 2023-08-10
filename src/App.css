@@ -1,0 +1,75 @@
+body {
+  background-color: #636487;
+  color: #333445;
+}
+
+/* Container div */
+.form-container {
+  margin: 30px auto;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5d6ed;
+  padding: 20px;
+  border-radius: 40px;
+  border: 3px solid #333445;
+}
+
+/* Form etiketi */
+form {
+  width: 100%;
+  padding: 10px;
+}
+
+/* Formun bileşen divleri */
+.part {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+/* Labellar */
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Inputlar */
+input,
+select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* Gönder butonu */
+button {
+  padding: 10px 20px;
+  background-color: #9a9cbd;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #636487;
+}
+
+/* Hata mesajları */
+.errorMsg {
+  color: red;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* Kullanılan renkler */
+.color1 {color: #00000b;}
+.color2 {color: #12244d;}
+.color3 {color: #394d9c;}
+.color4 {color: #6c7df5;}
+.color5 {color: #acb0ff;}
